@@ -1,6 +1,8 @@
 import React from 'react';
 
 export const Header = () => {
+  const [darkMode, setDarkMode] = React.useState(false);
+  React.useEffect(() => { if (darkMode) document.documentElement.classList.add("dark-theme"); else document.documentElement.classList.remove("dark-theme"); }, [darkMode]);
   return (
     <header className="fixed top-0 left-60 right-0 h-16 bg-surface-container-lowest/90 backdrop-blur-md z-40 flex items-center justify-between px-space-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
       <div className="flex-1 max-w-xl">
@@ -31,8 +33,8 @@ export const Header = () => {
             <span className="material-symbols-outlined text-[22px]">notifications</span>
             <span className="absolute top-1.5 right-1.5 h-2 w-2 rounded-full bg-error"></span>
           </button>
-          <button className="p-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors">
-            <span className="material-symbols-outlined text-[22px]">dark_mode</span>
+          <button onClick={() => setDarkMode(!darkMode)} className="p-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors">
+            <span className="material-symbols-outlined text-[22px]">{darkMode ? "light_mode" : "dark_mode"}</span>
           </button>
         </div>
         

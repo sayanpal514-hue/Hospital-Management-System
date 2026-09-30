@@ -21,3 +21,14 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+html.dark-theme {
+  filter: invert(1) hue-rotate(180deg);
+  background-color: #0b1c30;
+}
+
+html.dark-theme img,
+html.dark-theme video,
+html.dark-theme .revert-dark {
+  filter: invert(1) hue-rotate(180deg);
+}
