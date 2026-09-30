@@ -32,11 +32,16 @@ A state-of-the-art, full-stack Hospital Management System designed with clinical
 
 ## 📸 Interface Preview
 
-*(The SayanHealth UI employs a sophisticated dark-themed "Clinical Precision" design language utilizing semantic color mapping, elevated surfaces, and high-contrast typography.)*
+*(The SayanHealth UI employs a sophisticated design language utilizing semantic color mapping, elevated surfaces, and high-contrast typography, with a built-in dark mode toggle.)*
 
-- **SayanHealth Dashboard:** Displays KPI metrics, recent appointments, and department load bars. 
-- **EMR Console:** Split-view editor for subjective/objective notes and a structured medication grid.
-- **Pharmacy POS:** Cart summary with stock alerts, discount logic, and a dynamic payment collection modal.
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Sidebar / Staff View
+![Sidebar & Staff](screenshots/sidebar.png)
+
+### Billing & Finance
+![Billing & Finance](screenshots/billing.png)
 
 ## 🚀 Getting Started
 
