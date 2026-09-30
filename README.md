@@ -32,8 +32,6 @@ A state-of-the-art, full-stack Hospital Management System designed with clinical
 
 ## 📸 Interface Preview
 
-*(The SayanHealth UI employs a sophisticated design language utilizing semantic color mapping, elevated surfaces, and high-contrast typography, with a built-in dark mode toggle.)*
-
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
