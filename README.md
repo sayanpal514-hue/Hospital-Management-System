@@ -95,4 +95,4 @@ JWT_EXPIRE=30d
 ```
 
 ## 👨‍💻 Developed By
-**SayanHealth (sayanpal514-hue)**
+**Sayan Pal (sayanpal514-hue)**
